@@ -1,19 +1,19 @@
 {
   "schema_version": "v1",
-  "name_for_model": "retrieval",
-  "name_for_human": "Retrieval Plugin",
-  "description_for_model": "Plugin for searching through the user's documents (such as files, emails, and more) to find answers to questions and retrieve relevant information. Use it whenever a user asks something that might be found in their personal information.",
-  "description_for_human": "Search through your documents.",
+  "name_for_model": "QGR Plugin",
+  "name_for_human": "Quantum Gravity Research (QGR) Plugin",
+  "description_for_model": "Plugin for searching through the Klee Irwin's ideas and QGR (Quantum Gravity Research) definitions and concept to find answers to questions and retrieve relevant information on Quantum Gravity, Consciousness, Mathematica code, Quasicrystals, Emergence, Empires, non-locality, SSH, Self Simulation Hypothesis. Use this tool whenever a user asks something related to QGR and Klee Irwin or anything that might be found in their personal information.",
+  "description_for_human": "First implementation of QGR knowledge for in ChatGPT.",
   "auth": {
     "type": "user_http",
     "authorization_type": "bearer"
   },
   "api": {
     "type": "openapi",
-    "url": "https://your-app-url.com/.well-known/openapi.yaml",
+    "url": "https://chatgpt-retrieval-plugin-kohl.vercel.app/",
     "has_user_authentication": false
   },
-  "logo_url": "https://your-app-url.com/.well-known/logo.png",
-  "contact_email": "hello@contact.com", 
+  "logo_url": "https://chatgpt-retrieval-plugin-kohl.vercel.app/.well-known/logo.png",
+  "contact_email": "daniele@quantumgravityresearch.org", 
   "legal_info_url": "http://example.com/legal-info"
 }
